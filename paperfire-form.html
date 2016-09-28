@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`paperfire-form`
+a form that syncs to firebase
+
+@demo demo/index.html 
+-->
+
+<dom-module id="paperfire-form">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'paperfire-form',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'paperfire-form',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
